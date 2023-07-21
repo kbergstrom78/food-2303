@@ -7,6 +7,40 @@
           null
         ]
       },
+      "/Users/kimbergstrom/Turing/3mod/challenges/food-2303/app/poros/food.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          1,
+          41,
+          41,
+          41,
+          41,
+          null,
+          null
+        ]
+      },
+      "/Users/kimbergstrom/Turing/3mod/challenges/food-2303/app/services/food_service.rb": {
+        "lines": [
+          1,
+          1,
+          5,
+          5,
+          5,
+          null,
+          null,
+          null,
+          1,
+          5,
+          5,
+          null,
+          null,
+          5,
+          null,
+          null
+        ]
+      },
       "/Users/kimbergstrom/Turing/3mod/challenges/food-2303/app/controllers/welcome_controller.rb": {
         "lines": [
           1,
@@ -44,94 +78,8 @@
           null,
           null
         ]
-      },
-      "/Users/kimbergstrom/Turing/3mod/challenges/food-2303/app/services/food_service.rb": {
-        "lines": [
-          1,
-          1,
-          4,
-          4,
-          4,
-          null,
-          null,
-          null,
-          1,
-          4,
-          4,
-          null,
-          null,
-          4,
-          null,
-          null
-        ]
-      },
-      "/Users/kimbergstrom/Turing/3mod/challenges/food-2303/app/poros/food.rb": {
-        "lines": [
-          1,
-          1,
-          null,
-          1,
-          40,
-          40,
-          40,
-          40,
-          null,
-          null
-        ]
-      },
-      "/Users/kimbergstrom/Turing/3mod/challenges/food-2303/app/channels/application_cable/channel.rb": {
-        "lines": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/Users/kimbergstrom/Turing/3mod/challenges/food-2303/app/channels/application_cable/connection.rb": {
-        "lines": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/Users/kimbergstrom/Turing/3mod/challenges/food-2303/app/jobs/application_job.rb": {
-        "lines": [
-          0,
-          null,
-          null,
-          null,
-          null,
-          null,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/Users/kimbergstrom/Turing/3mod/challenges/food-2303/app/mailers/application_mailer.rb": {
-        "lines": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/Users/kimbergstrom/Turing/3mod/challenges/food-2303/app/models/application_record.rb": {
-        "lines": [
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
       }
     },
-    "timestamp": 1689956979
+    "timestamp": 1689957192
   }
 }
