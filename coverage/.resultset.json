@@ -7,6 +7,19 @@
           null
         ]
       },
+      "/Users/kimbergstrom/Turing/3mod/challenges/food-2303/app/facades/food_search_facade.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          1,
+          10,
+          null,
+          null,
+          null
+        ]
+      },
       "/Users/kimbergstrom/Turing/3mod/challenges/food-2303/app/services/food_service.rb": {
         "lines": [
           1,
@@ -25,6 +38,20 @@
           null,
           null,
           1,
+          null,
+          null
+        ]
+      },
+      "/Users/kimbergstrom/Turing/3mod/challenges/food-2303/app/poros/food.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          1,
+          10,
+          10,
+          10,
+          10,
           null,
           null
         ]
@@ -100,6 +127,6 @@
         }
       }
     },
-    "timestamp": 1689953512
+    "timestamp": 1689954045
   }
 }
