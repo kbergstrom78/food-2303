@@ -7,14 +7,39 @@
           null
         ]
       },
+      "/Users/kimbergstrom/Turing/3mod/challenges/food-2303/app/controllers/welcome_controller.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/kimbergstrom/Turing/3mod/challenges/food-2303/app/controllers/application_controller.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "/Users/kimbergstrom/Turing/3mod/challenges/food-2303/app/controllers/foods_controller.rb": {
+        "lines": [
+          1,
+          1,
+          3,
+          3,
+          3,
+          null,
+          null
+        ]
+      },
       "/Users/kimbergstrom/Turing/3mod/challenges/food-2303/app/facades/food_search_facade.rb": {
         "lines": [
           1,
           1,
-          1,
+          3,
           null,
-          1,
-          10,
+          3,
+          30,
           null,
           null,
           null
@@ -23,21 +48,19 @@
       "/Users/kimbergstrom/Turing/3mod/challenges/food-2303/app/services/food_service.rb": {
         "lines": [
           1,
-          null,
-          null,
           1,
-          1,
-          1,
-          1,
+          3,
+          3,
+          3,
           null,
           null,
           null,
           1,
-          1,
-          1,
+          3,
+          3,
           null,
           null,
-          1,
+          3,
           null,
           null
         ]
@@ -48,10 +71,10 @@
           1,
           null,
           1,
-          10,
-          10,
-          10,
-          10,
+          30,
+          30,
+          30,
+          30,
           null,
           null
         ]
@@ -67,37 +90,6 @@
         }
       },
       "/Users/kimbergstrom/Turing/3mod/challenges/food-2303/app/channels/application_cable/connection.rb": {
-        "lines": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/Users/kimbergstrom/Turing/3mod/challenges/food-2303/app/controllers/application_controller.rb": {
-        "lines": [
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/Users/kimbergstrom/Turing/3mod/challenges/food-2303/app/controllers/food_controller.rb": {
-        "lines": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/Users/kimbergstrom/Turing/3mod/challenges/food-2303/app/controllers/welcome_controller.rb": {
         "lines": [
           0,
           0,
@@ -140,6 +132,6 @@
         }
       }
     },
-    "timestamp": 1689954560
+    "timestamp": 1689956741
   }
 }
