@@ -13,6 +13,11 @@ RSpec.describe 'As a user' do
       expect(current_path).to eq(foods_path)
     end
 
+    it 'shows total results' do
+      expect(page).to have_content('Total results')
+      expect(page).to have_content(26109)
+    end
+
     it 'returns a list of 10 items' do
       expect(page.all('li').count).to eq(10)
     end
