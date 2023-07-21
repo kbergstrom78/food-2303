@@ -8,6 +8,7 @@ RSpec.describe FoodSearchFacade do
       results = FoodSearchFacade.search(query)
 
       expect(results[:total_results]).to eq(55579)
+      expect(results[:foods].length).to eq(10)
       expect(results[:foods]).to all(be_a(Food))
 
       first_food = results[:foods].first

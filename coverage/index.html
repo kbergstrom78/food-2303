@@ -14,7 +14,7 @@
       <img src="./assets/0.12.3/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" class="hide">
-      <div class="timestamp">Generated <abbr class="timeago" title="2023-07-21T09:40:45-06:00">2023-07-21T09:40:45-06:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2023-07-21T09:49:20-06:00">2023-07-21T09:49:20-06:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
@@ -23,14 +23,14 @@
     <span class="group_name">All Files</span>
     (<span class="covered_percent">
       <span class="red">
-  48.89%
+  42.31%
 </span>
 
      </span>
      covered at
      <span class="covered_strength">
        <span class="green">
-         1.49
+         1.29
        </span>
     </span> hits/line
     )
@@ -39,15 +39,15 @@
   <a name="AllFiles"></a>
 
   <div>
-    <b>11</b> files in total.
+    <b>12</b> files in total.
   </div>
 
   <div class="t-line-summary">
-    <b>45</b> relevant lines,
+    <b>52</b> relevant lines,
     <span class="green"><b>22</b> lines covered</span> and
-    <span class="red"><b>23</b> lines missed. </span>
+    <span class="red"><b>30</b> lines missed. </span>
     (<span class="red">
-  48.89%
+  42.31%
 </span>
 )
   </div>
@@ -99,6 +99,17 @@
             <td class="cell--number">2</td>
             <td class="cell--number">0</td>
             <td class="cell--number">2</td>
+            <td class="cell--number">0.00</td>
+            
+          </tr>
+        
+          <tr class="t-file">
+            <td class="strong t-file__name"><a href="#840e44bada66c89f8e3ddd16f5087f3bfcb2b62c" class="src_link" title="app/controllers/food_controller.rb">app/controllers/food_controller.rb</a></td>
+            <td class="red strong cell--number t-file__coverage">0.00 %</td>
+            <td class="cell--number">7</td>
+            <td class="cell--number">7</td>
+            <td class="cell--number">0</td>
+            <td class="cell--number">7</td>
             <td class="cell--number">0.00</td>
             
           </tr>
@@ -219,13 +230,13 @@
   <a name="Controllers"></a>
 
   <div>
-    <b>2</b> files in total.
+    <b>3</b> files in total.
   </div>
 
   <div class="t-line-summary">
-    <b>6</b> relevant lines,
+    <b>13</b> relevant lines,
     <span class="green"><b>0</b> lines covered</span> and
-    <span class="red"><b>6</b> lines missed. </span>
+    <span class="red"><b>13</b> lines missed. </span>
     (<span class="red">
   0.0%
 </span>
@@ -257,6 +268,17 @@
             <td class="cell--number">2</td>
             <td class="cell--number">0</td>
             <td class="cell--number">2</td>
+            <td class="cell--number">0.00</td>
+            
+          </tr>
+        
+          <tr class="t-file">
+            <td class="strong t-file__name"><a href="#840e44bada66c89f8e3ddd16f5087f3bfcb2b62c" class="src_link" title="app/controllers/food_controller.rb">app/controllers/food_controller.rb</a></td>
+            <td class="red strong cell--number t-file__coverage">0.00 %</td>
+            <td class="cell--number">7</td>
+            <td class="cell--number">7</td>
+            <td class="cell--number">0</td>
+            <td class="cell--number">7</td>
             <td class="cell--number">0.00</td>
             
           </tr>
@@ -996,6 +1018,114 @@
 </div>
 
       
+        <div class="source_table" id="840e44bada66c89f8e3ddd16f5087f3bfcb2b62c">
+  <div class="header">
+    <h3>app/controllers/food_controller.rb</h3>
+    <h4>
+      <span class="red">
+  0.0%
+</span>
+
+      lines covered
+    </h4>
+
+    
+
+    <div class="t-line-summary">
+      <b>7</b> relevant lines.
+      <span class="green"><b>0</b> lines covered</span> and
+      <span class="red"><b>7</b> lines missed.</span>
+    </div>
+
+    
+
+  </div>
+
+  <pre>
+    <ol>
+      
+        <div>
+          <li class="missed" data-hits="0" data-linenumber="1">
+            
+            
+
+            
+
+            <code class="ruby">class FoodsController &lt; ApplicationController</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="missed" data-hits="0" data-linenumber="2">
+            
+            
+
+            
+
+            <code class="ruby">  def index</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="missed" data-hits="0" data-linenumber="3">
+            
+            
+
+            
+
+            <code class="ruby">    results = FoodSearchFacade.search(params[:query])</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="missed" data-hits="0" data-linenumber="4">
+            
+            
+
+            
+
+            <code class="ruby">    @total_results = results[:total_results]</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="missed" data-hits="0" data-linenumber="5">
+            
+            
+
+            
+
+            <code class="ruby">    @foods = results[:foods]</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="missed" data-hits="0" data-linenumber="6">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="missed" data-hits="0" data-linenumber="7">
+            
+            
+
+            
+
+            <code class="ruby">end</code>
+          </li>
+        </div>
+      
+    </ol>
+  </pre>
+</div>
+
+      
         <div class="source_table" id="cc6f007d00a3111341d5b1e87ec24b129e16f4bd">
   <div class="header">
     <h3>app/controllers/welcome_controller.rb</h3>
@@ -1159,7 +1289,7 @@
 
             
 
-            <code class="ruby">      foods: response[:foods][0..9].map { |data| Food.new(data) }</code>
+            <code class="ruby">      foods: response[:foods][0..9].map { |food_data| Food.new(food_data) }</code>
           </li>
         </div>
       
