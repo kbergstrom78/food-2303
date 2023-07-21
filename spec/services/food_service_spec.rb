@@ -6,9 +6,8 @@ RSpec.describe FoodService do
       foods = FoodService.food_search('sweet potatoes')
 
       expect(foods).to be_a(Hash)
-      expect(foods)
-
-
+      expect(foods[:foods]).to be_an(Array)
+      expect(foods[:foods].first).to have_key(:gtinUpc)
     end
   end
 end
